@@ -123,7 +123,7 @@ const doneTask = (event)=>{
     if(tasks.length === 0){
         const emptyListElement = `<li id="emptyList" class="list-group-item empty-list">
 \t\t\t\t\t<img src="./img/leaf.svg" alt="Empty" width="48" class="mt-3">
-\t\t\t\t\t<div class="empty-list__title">Список дел пуст</div>
+\t\t\t\t\t<div class="empty-list__title">List is Empty</div>
 \t\t\t\t</li>`
         tasksList.insertAdjacentHTML('afterbegin',emptyListElement)
     }
